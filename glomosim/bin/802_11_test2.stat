@@ -1,0 +1,1075 @@
+Node:      0, Layer:          802.11, pkts from network: 0
+Node:      0, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 199
+Node:      0, Layer:          802.11, BCAST pkts sent to chanl: 394
+Node:      0, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      0, Layer:          802.11, BCAST pkts rcvd clearly: 1981
+Node:      0, Layer:          802.11, retx pkts due to CTS timeout: 199
+Node:      0, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      0, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      0, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      0, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      0, Layer:    AppCbrClient, (0) Server address: 1
+Node:      0, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      0, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.500000000
+Node:      0, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      0, Layer:    AppCbrClient, (0) Total number of bytes sent: 290000
+Node:      0, Layer:    AppCbrClient, (0) Total number of packets sent: 200
+Node:      0, Layer:    AppCbrClient, (0) Throughput (bits per second): 23316
+Node:      1, Layer:          802.11, pkts from network: 0
+Node:      1, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      1, Layer:          802.11, BCAST pkts sent to chanl: 407
+Node:      1, Layer:          802.11, UCAST pkts rcvd clearly: 994
+Node:      1, Layer:          802.11, BCAST pkts rcvd clearly: 2793
+Node:      1, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      1, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      1, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      1, Layer:          802.11, RTS Packets ignored due to Busy Channel 5
+Node:      1, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      1, Layer:    AppCbrServer, (0) Client address: 5
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.602521268
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 99.576554274
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.082443424
+Node:      1, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 287100
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 198
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 23206
+Node:      1, Layer:    AppCbrServer, (0) Client address: 4
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.584245394
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 99.562344789
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.062561667
+Node:      1, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 288550
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 199
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 23322
+Node:      1, Layer:    AppCbrServer, (0) Client address: 3
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.542770093
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 99.530549029
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.040544266
+Node:      1, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 288550
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 199
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 23320
+Node:      1, Layer:    AppCbrServer, (0) Client address: 2
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.530792873
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 99.522748809
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.019539539
+Node:      1, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 288550
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 199
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 23319
+Node:      1, Layer:    AppCbrServer, (0) Client address: 0
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.507549410
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 99.515249858
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.012117205
+Node:      1, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 288550
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 199
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 23315
+Node:      2, Layer:          802.11, pkts from network: 0
+Node:      2, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 398
+Node:      2, Layer:          802.11, BCAST pkts sent to chanl: 395
+Node:      2, Layer:          802.11, UCAST pkts rcvd clearly: 199
+Node:      2, Layer:          802.11, BCAST pkts rcvd clearly: 2687
+Node:      2, Layer:          802.11, retx pkts due to CTS timeout: 204
+Node:      2, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      2, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      2, Layer:          802.11, RTS Packets ignored due to Busy Channel 3
+Node:      2, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      2, Layer:    AppCbrClient, (0) Server address: 1
+Node:      2, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      2, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.500000000
+Node:      2, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      2, Layer:    AppCbrClient, (0) Total number of bytes sent: 290000
+Node:      2, Layer:    AppCbrClient, (0) Total number of packets sent: 200
+Node:      2, Layer:    AppCbrClient, (0) Throughput (bits per second): 23316
+Node:      3, Layer:          802.11, pkts from network: 0
+Node:      3, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 199
+Node:      3, Layer:          802.11, BCAST pkts sent to chanl: 396
+Node:      3, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      3, Layer:          802.11, BCAST pkts rcvd clearly: 1891
+Node:      3, Layer:          802.11, retx pkts due to CTS timeout: 205
+Node:      3, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      3, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      3, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      3, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      3, Layer:    AppCbrClient, (0) Server address: 1
+Node:      3, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      3, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.500000000
+Node:      3, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      3, Layer:    AppCbrClient, (0) Total number of bytes sent: 290000
+Node:      3, Layer:    AppCbrClient, (0) Total number of packets sent: 200
+Node:      3, Layer:    AppCbrClient, (0) Throughput (bits per second): 23316
+Node:      4, Layer:          802.11, pkts from network: 0
+Node:      4, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 397
+Node:      4, Layer:          802.11, BCAST pkts sent to chanl: 397
+Node:      4, Layer:          802.11, UCAST pkts rcvd clearly: 198
+Node:      4, Layer:          802.11, BCAST pkts rcvd clearly: 2284
+Node:      4, Layer:          802.11, retx pkts due to CTS timeout: 621
+Node:      4, Layer:          802.11, retx pkts due to ACK timeout: 44
+Node:      4, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      4, Layer:          802.11, RTS Packets ignored due to Busy Channel 240
+Node:      4, Layer:          802.11, RTS Packets ignored due to NAV 4
+Node:      4, Layer:    AppCbrClient, (0) Server address: 1
+Node:      4, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      4, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.500000000
+Node:      4, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      4, Layer:    AppCbrClient, (0) Total number of bytes sent: 290000
+Node:      4, Layer:    AppCbrClient, (0) Total number of packets sent: 200
+Node:      4, Layer:    AppCbrClient, (0) Throughput (bits per second): 23316
+Node:      5, Layer:          802.11, pkts from network: 0
+Node:      5, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 198
+Node:      5, Layer:          802.11, BCAST pkts sent to chanl: 396
+Node:      5, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      5, Layer:          802.11, BCAST pkts rcvd clearly: 1565
+Node:      5, Layer:          802.11, retx pkts due to CTS timeout: 450
+Node:      5, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      5, Layer:          802.11, pkt drops due to retx limit: 1
+Node:      5, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      5, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      5, Layer:    AppCbrClient, (0) Server address: 1
+Node:      5, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      5, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.500000000
+Node:      5, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      5, Layer:    AppCbrClient, (0) Total number of bytes sent: 290000
+Node:      5, Layer:    AppCbrClient, (0) Total number of packets sent: 200
+Node:      5, Layer:    AppCbrClient, (0) Throughput (bits per second): 23316
+Node:      6, Layer:          802.11, pkts from network: 0
+Node:      6, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      6, Layer:          802.11, BCAST pkts sent to chanl: 401
+Node:      6, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      6, Layer:          802.11, BCAST pkts rcvd clearly: 2718
+Node:      6, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      6, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      6, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      6, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      6, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      7, Layer:          802.11, pkts from network: 0
+Node:      7, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      7, Layer:          802.11, BCAST pkts sent to chanl: 397
+Node:      7, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      7, Layer:          802.11, BCAST pkts rcvd clearly: 2686
+Node:      7, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      7, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      7, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      7, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      7, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      8, Layer:          802.11, pkts from network: 0
+Node:      8, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      8, Layer:          802.11, BCAST pkts sent to chanl: 396
+Node:      8, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      8, Layer:          802.11, BCAST pkts rcvd clearly: 3477
+Node:      8, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      8, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      8, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      8, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      8, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      9, Layer:          802.11, pkts from network: 0
+Node:      9, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      9, Layer:          802.11, BCAST pkts sent to chanl: 391
+Node:      9, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      9, Layer:          802.11, BCAST pkts rcvd clearly: 1944
+Node:      9, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      9, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      9, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      9, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      9, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     10, Layer:          802.11, pkts from network: 0
+Node:     10, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     10, Layer:          802.11, BCAST pkts sent to chanl: 407
+Node:     10, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     10, Layer:          802.11, BCAST pkts rcvd clearly: 2372
+Node:     10, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     10, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     10, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     10, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     10, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     11, Layer:          802.11, pkts from network: 0
+Node:     11, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     11, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     11, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     11, Layer:          802.11, BCAST pkts rcvd clearly: 3146
+Node:     11, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     11, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     11, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     11, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     11, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     12, Layer:          802.11, pkts from network: 0
+Node:     12, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 397
+Node:     12, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     12, Layer:          802.11, UCAST pkts rcvd clearly: 397
+Node:     12, Layer:          802.11, BCAST pkts rcvd clearly: 3821
+Node:     12, Layer:          802.11, retx pkts due to CTS timeout: 55
+Node:     12, Layer:          802.11, retx pkts due to ACK timeout: 11
+Node:     12, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     12, Layer:          802.11, RTS Packets ignored due to Busy Channel 3
+Node:     12, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     13, Layer:          802.11, pkts from network: 0
+Node:     13, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 397
+Node:     13, Layer:          802.11, BCAST pkts sent to chanl: 402
+Node:     13, Layer:          802.11, UCAST pkts rcvd clearly: 397
+Node:     13, Layer:          802.11, BCAST pkts rcvd clearly: 2179
+Node:     13, Layer:          802.11, retx pkts due to CTS timeout: 11
+Node:     13, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     13, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     13, Layer:          802.11, RTS Packets ignored due to Busy Channel 188
+Node:     13, Layer:          802.11, RTS Packets ignored due to NAV 42
+Node:     14, Layer:          802.11, pkts from network: 0
+Node:     14, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     14, Layer:          802.11, BCAST pkts sent to chanl: 405
+Node:     14, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     14, Layer:          802.11, BCAST pkts rcvd clearly: 2636
+Node:     14, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     14, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     14, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     14, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     14, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     15, Layer:          802.11, pkts from network: 0
+Node:     15, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     15, Layer:          802.11, BCAST pkts sent to chanl: 401
+Node:     15, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     15, Layer:          802.11, BCAST pkts rcvd clearly: 3021
+Node:     15, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     15, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     15, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     15, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     15, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     16, Layer:          802.11, pkts from network: 0
+Node:     16, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     16, Layer:          802.11, BCAST pkts sent to chanl: 396
+Node:     16, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     16, Layer:          802.11, BCAST pkts rcvd clearly: 3267
+Node:     16, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     16, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     16, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     16, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     16, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     17, Layer:          802.11, pkts from network: 0
+Node:     17, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     17, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     17, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     17, Layer:          802.11, BCAST pkts rcvd clearly: 3460
+Node:     17, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     17, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     17, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     17, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     17, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     18, Layer:          802.11, pkts from network: 0
+Node:     18, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     18, Layer:          802.11, BCAST pkts sent to chanl: 389
+Node:     18, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     18, Layer:          802.11, BCAST pkts rcvd clearly: 4184
+Node:     18, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     18, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     18, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     18, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     18, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     19, Layer:          802.11, pkts from network: 0
+Node:     19, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     19, Layer:          802.11, BCAST pkts sent to chanl: 388
+Node:     19, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     19, Layer:          802.11, BCAST pkts rcvd clearly: 1937
+Node:     19, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     19, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     19, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     19, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     19, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     20, Layer:          802.11, pkts from network: 0
+Node:     20, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     20, Layer:          802.11, BCAST pkts sent to chanl: 407
+Node:     20, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     20, Layer:          802.11, BCAST pkts rcvd clearly: 3417
+Node:     20, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     20, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     20, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     20, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     20, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     21, Layer:          802.11, pkts from network: 0
+Node:     21, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     21, Layer:          802.11, BCAST pkts sent to chanl: 412
+Node:     21, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     21, Layer:          802.11, BCAST pkts rcvd clearly: 4028
+Node:     21, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     21, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     21, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     21, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     21, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     22, Layer:          802.11, pkts from network: 0
+Node:     22, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     22, Layer:          802.11, BCAST pkts sent to chanl: 402
+Node:     22, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     22, Layer:          802.11, BCAST pkts rcvd clearly: 4271
+Node:     22, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     22, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     22, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     22, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     22, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     23, Layer:          802.11, pkts from network: 0
+Node:     23, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     23, Layer:          802.11, BCAST pkts sent to chanl: 409
+Node:     23, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     23, Layer:          802.11, BCAST pkts rcvd clearly: 4458
+Node:     23, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     23, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     23, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     23, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     23, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     24, Layer:          802.11, pkts from network: 0
+Node:     24, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     24, Layer:          802.11, BCAST pkts sent to chanl: 406
+Node:     24, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     24, Layer:          802.11, BCAST pkts rcvd clearly: 3314
+Node:     24, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     24, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     24, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     24, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     24, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     25, Layer:          802.11, pkts from network: 0
+Node:     25, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     25, Layer:          802.11, BCAST pkts sent to chanl: 404
+Node:     25, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     25, Layer:          802.11, BCAST pkts rcvd clearly: 3439
+Node:     25, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     25, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     25, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     25, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     25, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     26, Layer:          802.11, pkts from network: 0
+Node:     26, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     26, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     26, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     26, Layer:          802.11, BCAST pkts rcvd clearly: 3556
+Node:     26, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     26, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     26, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     26, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     26, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     27, Layer:          802.11, pkts from network: 0
+Node:     27, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     27, Layer:          802.11, BCAST pkts sent to chanl: 399
+Node:     27, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     27, Layer:          802.11, BCAST pkts rcvd clearly: 4711
+Node:     27, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     27, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     27, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     27, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     27, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     28, Layer:          802.11, pkts from network: 0
+Node:     28, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     28, Layer:          802.11, BCAST pkts sent to chanl: 392
+Node:     28, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     28, Layer:          802.11, BCAST pkts rcvd clearly: 3818
+Node:     28, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     28, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     28, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     28, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     28, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     29, Layer:          802.11, pkts from network: 0
+Node:     29, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     29, Layer:          802.11, BCAST pkts sent to chanl: 390
+Node:     29, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     29, Layer:          802.11, BCAST pkts rcvd clearly: 2679
+Node:     29, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     29, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     29, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     29, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     29, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     30, Layer:          802.11, pkts from network: 0
+Node:     30, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     30, Layer:          802.11, BCAST pkts sent to chanl: 406
+Node:     30, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     30, Layer:          802.11, BCAST pkts rcvd clearly: 2701
+Node:     30, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     30, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     30, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     30, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     30, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     31, Layer:          802.11, pkts from network: 0
+Node:     31, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     31, Layer:          802.11, BCAST pkts sent to chanl: 399
+Node:     31, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     31, Layer:          802.11, BCAST pkts rcvd clearly: 3374
+Node:     31, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     31, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     31, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     31, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     31, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     32, Layer:          802.11, pkts from network: 0
+Node:     32, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     32, Layer:          802.11, BCAST pkts sent to chanl: 408
+Node:     32, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     32, Layer:          802.11, BCAST pkts rcvd clearly: 4161
+Node:     32, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     32, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     32, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     32, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     32, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     33, Layer:          802.11, pkts from network: 0
+Node:     33, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     33, Layer:          802.11, BCAST pkts sent to chanl: 401
+Node:     33, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     33, Layer:          802.11, BCAST pkts rcvd clearly: 3227
+Node:     33, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     33, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     33, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     33, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     33, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     34, Layer:          802.11, pkts from network: 0
+Node:     34, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     34, Layer:          802.11, BCAST pkts sent to chanl: 407
+Node:     34, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     34, Layer:          802.11, BCAST pkts rcvd clearly: 3734
+Node:     34, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     34, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     34, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     34, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     34, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     35, Layer:          802.11, pkts from network: 0
+Node:     35, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     35, Layer:          802.11, BCAST pkts sent to chanl: 410
+Node:     35, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     35, Layer:          802.11, BCAST pkts rcvd clearly: 3651
+Node:     35, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     35, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     35, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     35, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     35, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     36, Layer:          802.11, pkts from network: 0
+Node:     36, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     36, Layer:          802.11, BCAST pkts sent to chanl: 406
+Node:     36, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     36, Layer:          802.11, BCAST pkts rcvd clearly: 3932
+Node:     36, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     36, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     36, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     36, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     36, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     37, Layer:          802.11, pkts from network: 0
+Node:     37, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     37, Layer:          802.11, BCAST pkts sent to chanl: 396
+Node:     37, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     37, Layer:          802.11, BCAST pkts rcvd clearly: 3605
+Node:     37, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     37, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     37, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     37, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     37, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     38, Layer:          802.11, pkts from network: 0
+Node:     38, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     38, Layer:          802.11, BCAST pkts sent to chanl: 393
+Node:     38, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     38, Layer:          802.11, BCAST pkts rcvd clearly: 3347
+Node:     38, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     38, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     38, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     38, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     38, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     39, Layer:          802.11, pkts from network: 0
+Node:     39, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     39, Layer:          802.11, BCAST pkts sent to chanl: 384
+Node:     39, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     39, Layer:          802.11, BCAST pkts rcvd clearly: 3037
+Node:     39, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     39, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     39, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     39, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     39, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     40, Layer:          802.11, pkts from network: 0
+Node:     40, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     40, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     40, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     40, Layer:          802.11, BCAST pkts rcvd clearly: 2682
+Node:     40, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     40, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     40, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     40, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     40, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     41, Layer:          802.11, pkts from network: 0
+Node:     41, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     41, Layer:          802.11, BCAST pkts sent to chanl: 400
+Node:     41, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     41, Layer:          802.11, BCAST pkts rcvd clearly: 3886
+Node:     41, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     41, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     41, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     41, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     41, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     42, Layer:          802.11, pkts from network: 0
+Node:     42, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     42, Layer:          802.11, BCAST pkts sent to chanl: 400
+Node:     42, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     42, Layer:          802.11, BCAST pkts rcvd clearly: 4591
+Node:     42, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     42, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     42, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     42, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     42, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     43, Layer:          802.11, pkts from network: 0
+Node:     43, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     43, Layer:          802.11, BCAST pkts sent to chanl: 409
+Node:     43, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     43, Layer:          802.11, BCAST pkts rcvd clearly: 4184
+Node:     43, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     43, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     43, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     43, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     43, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     44, Layer:          802.11, pkts from network: 0
+Node:     44, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     44, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     44, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     44, Layer:          802.11, BCAST pkts rcvd clearly: 4162
+Node:     44, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     44, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     44, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     44, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     44, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     45, Layer:          802.11, pkts from network: 0
+Node:     45, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     45, Layer:          802.11, BCAST pkts sent to chanl: 416
+Node:     45, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     45, Layer:          802.11, BCAST pkts rcvd clearly: 3870
+Node:     45, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     45, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     45, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     45, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     45, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     46, Layer:          802.11, pkts from network: 0
+Node:     46, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     46, Layer:          802.11, BCAST pkts sent to chanl: 414
+Node:     46, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     46, Layer:          802.11, BCAST pkts rcvd clearly: 2903
+Node:     46, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     46, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     46, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     46, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     46, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     47, Layer:          802.11, pkts from network: 0
+Node:     47, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     47, Layer:          802.11, BCAST pkts sent to chanl: 404
+Node:     47, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     47, Layer:          802.11, BCAST pkts rcvd clearly: 3068
+Node:     47, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     47, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     47, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     47, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     47, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     48, Layer:          802.11, pkts from network: 0
+Node:     48, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     48, Layer:          802.11, BCAST pkts sent to chanl: 394
+Node:     48, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     48, Layer:          802.11, BCAST pkts rcvd clearly: 3500
+Node:     48, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     48, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     48, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     48, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     48, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     49, Layer:          802.11, pkts from network: 0
+Node:     49, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     49, Layer:          802.11, BCAST pkts sent to chanl: 392
+Node:     49, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     49, Layer:          802.11, BCAST pkts rcvd clearly: 1865
+Node:     49, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     49, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     49, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     49, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     49, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     50, Layer:          802.11, pkts from network: 0
+Node:     50, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     50, Layer:          802.11, BCAST pkts sent to chanl: 397
+Node:     50, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     50, Layer:          802.11, BCAST pkts rcvd clearly: 3019
+Node:     50, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     50, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     50, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     50, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     50, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     51, Layer:          802.11, pkts from network: 0
+Node:     51, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     51, Layer:          802.11, BCAST pkts sent to chanl: 397
+Node:     51, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     51, Layer:          802.11, BCAST pkts rcvd clearly: 4126
+Node:     51, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     51, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     51, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     51, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     51, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     52, Layer:          802.11, pkts from network: 0
+Node:     52, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     52, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     52, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     52, Layer:          802.11, BCAST pkts rcvd clearly: 4420
+Node:     52, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     52, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     52, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     52, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     52, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     53, Layer:          802.11, pkts from network: 0
+Node:     53, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     53, Layer:          802.11, BCAST pkts sent to chanl: 405
+Node:     53, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     53, Layer:          802.11, BCAST pkts rcvd clearly: 3374
+Node:     53, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     53, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     53, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     53, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     53, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     54, Layer:          802.11, pkts from network: 0
+Node:     54, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     54, Layer:          802.11, BCAST pkts sent to chanl: 395
+Node:     54, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     54, Layer:          802.11, BCAST pkts rcvd clearly: 3230
+Node:     54, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     54, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     54, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     54, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     54, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     55, Layer:          802.11, pkts from network: 0
+Node:     55, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     55, Layer:          802.11, BCAST pkts sent to chanl: 410
+Node:     55, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     55, Layer:          802.11, BCAST pkts rcvd clearly: 2697
+Node:     55, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     55, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     55, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     55, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     55, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     56, Layer:          802.11, pkts from network: 0
+Node:     56, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     56, Layer:          802.11, BCAST pkts sent to chanl: 407
+Node:     56, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     56, Layer:          802.11, BCAST pkts rcvd clearly: 2399
+Node:     56, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     56, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     56, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     56, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     56, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     57, Layer:          802.11, pkts from network: 0
+Node:     57, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     57, Layer:          802.11, BCAST pkts sent to chanl: 392
+Node:     57, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     57, Layer:          802.11, BCAST pkts rcvd clearly: 3736
+Node:     57, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     57, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     57, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     57, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     57, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     58, Layer:          802.11, pkts from network: 0
+Node:     58, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     58, Layer:          802.11, BCAST pkts sent to chanl: 385
+Node:     58, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     58, Layer:          802.11, BCAST pkts rcvd clearly: 2939
+Node:     58, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     58, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     58, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     58, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     58, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     59, Layer:          802.11, pkts from network: 0
+Node:     59, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     59, Layer:          802.11, BCAST pkts sent to chanl: 391
+Node:     59, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     59, Layer:          802.11, BCAST pkts rcvd clearly: 2233
+Node:     59, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     59, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     59, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     59, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     59, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     60, Layer:          802.11, pkts from network: 0
+Node:     60, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     60, Layer:          802.11, BCAST pkts sent to chanl: 389
+Node:     60, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     60, Layer:          802.11, BCAST pkts rcvd clearly: 1921
+Node:     60, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     60, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     60, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     60, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     60, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     61, Layer:          802.11, pkts from network: 0
+Node:     61, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     61, Layer:          802.11, BCAST pkts sent to chanl: 402
+Node:     61, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     61, Layer:          802.11, BCAST pkts rcvd clearly: 3408
+Node:     61, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     61, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     61, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     61, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     61, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     62, Layer:          802.11, pkts from network: 0
+Node:     62, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     62, Layer:          802.11, BCAST pkts sent to chanl: 395
+Node:     62, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     62, Layer:          802.11, BCAST pkts rcvd clearly: 3570
+Node:     62, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     62, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     62, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     62, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     62, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     63, Layer:          802.11, pkts from network: 0
+Node:     63, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     63, Layer:          802.11, BCAST pkts sent to chanl: 408
+Node:     63, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     63, Layer:          802.11, BCAST pkts rcvd clearly: 3661
+Node:     63, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     63, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     63, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     63, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     63, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     64, Layer:          802.11, pkts from network: 0
+Node:     64, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     64, Layer:          802.11, BCAST pkts sent to chanl: 400
+Node:     64, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     64, Layer:          802.11, BCAST pkts rcvd clearly: 2949
+Node:     64, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     64, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     64, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     64, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     64, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     65, Layer:          802.11, pkts from network: 0
+Node:     65, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     65, Layer:          802.11, BCAST pkts sent to chanl: 405
+Node:     65, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     65, Layer:          802.11, BCAST pkts rcvd clearly: 3219
+Node:     65, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     65, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     65, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     65, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     65, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     66, Layer:          802.11, pkts from network: 0
+Node:     66, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     66, Layer:          802.11, BCAST pkts sent to chanl: 406
+Node:     66, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     66, Layer:          802.11, BCAST pkts rcvd clearly: 3870
+Node:     66, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     66, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     66, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     66, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     66, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     67, Layer:          802.11, pkts from network: 0
+Node:     67, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     67, Layer:          802.11, BCAST pkts sent to chanl: 408
+Node:     67, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     67, Layer:          802.11, BCAST pkts rcvd clearly: 3969
+Node:     67, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     67, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     67, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     67, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     67, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     68, Layer:          802.11, pkts from network: 0
+Node:     68, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     68, Layer:          802.11, BCAST pkts sent to chanl: 385
+Node:     68, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     68, Layer:          802.11, BCAST pkts rcvd clearly: 3446
+Node:     68, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     68, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     68, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     68, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     68, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     69, Layer:          802.11, pkts from network: 0
+Node:     69, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     69, Layer:          802.11, BCAST pkts sent to chanl: 383
+Node:     69, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     69, Layer:          802.11, BCAST pkts rcvd clearly: 2681
+Node:     69, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     69, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     69, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     69, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     69, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     70, Layer:          802.11, pkts from network: 0
+Node:     70, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     70, Layer:          802.11, BCAST pkts sent to chanl: 386
+Node:     70, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     70, Layer:          802.11, BCAST pkts rcvd clearly: 1180
+Node:     70, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     70, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     70, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     70, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     70, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     71, Layer:          802.11, pkts from network: 0
+Node:     71, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     71, Layer:          802.11, BCAST pkts sent to chanl: 393
+Node:     71, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     71, Layer:          802.11, BCAST pkts rcvd clearly: 3092
+Node:     71, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     71, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     71, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     71, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     71, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     72, Layer:          802.11, pkts from network: 0
+Node:     72, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     72, Layer:          802.11, BCAST pkts sent to chanl: 388
+Node:     72, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     72, Layer:          802.11, BCAST pkts rcvd clearly: 3383
+Node:     72, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     72, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     72, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     72, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     72, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     73, Layer:          802.11, pkts from network: 0
+Node:     73, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     73, Layer:          802.11, BCAST pkts sent to chanl: 390
+Node:     73, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     73, Layer:          802.11, BCAST pkts rcvd clearly: 3198
+Node:     73, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     73, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     73, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     73, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     73, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     74, Layer:          802.11, pkts from network: 0
+Node:     74, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     74, Layer:          802.11, BCAST pkts sent to chanl: 400
+Node:     74, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     74, Layer:          802.11, BCAST pkts rcvd clearly: 3251
+Node:     74, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     74, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     74, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     74, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     74, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     75, Layer:          802.11, pkts from network: 0
+Node:     75, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     75, Layer:          802.11, BCAST pkts sent to chanl: 394
+Node:     75, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     75, Layer:          802.11, BCAST pkts rcvd clearly: 3152
+Node:     75, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     75, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     75, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     75, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     75, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     76, Layer:          802.11, pkts from network: 0
+Node:     76, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     76, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     76, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     76, Layer:          802.11, BCAST pkts rcvd clearly: 3917
+Node:     76, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     76, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     76, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     76, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     76, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     77, Layer:          802.11, pkts from network: 0
+Node:     77, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     77, Layer:          802.11, BCAST pkts sent to chanl: 400
+Node:     77, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     77, Layer:          802.11, BCAST pkts rcvd clearly: 4386
+Node:     77, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     77, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     77, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     77, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     77, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     78, Layer:          802.11, pkts from network: 0
+Node:     78, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     78, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     78, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     78, Layer:          802.11, BCAST pkts rcvd clearly: 4942
+Node:     78, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     78, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     78, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     78, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     78, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     79, Layer:          802.11, pkts from network: 0
+Node:     79, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     79, Layer:          802.11, BCAST pkts sent to chanl: 396
+Node:     79, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     79, Layer:          802.11, BCAST pkts rcvd clearly: 3086
+Node:     79, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     79, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     79, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     79, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     79, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     80, Layer:          802.11, pkts from network: 0
+Node:     80, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     80, Layer:          802.11, BCAST pkts sent to chanl: 394
+Node:     80, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     80, Layer:          802.11, BCAST pkts rcvd clearly: 1899
+Node:     80, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     80, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     80, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     80, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     80, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     81, Layer:          802.11, pkts from network: 0
+Node:     81, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     81, Layer:          802.11, BCAST pkts sent to chanl: 397
+Node:     81, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     81, Layer:          802.11, BCAST pkts rcvd clearly: 3062
+Node:     81, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     81, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     81, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     81, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     81, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     82, Layer:          802.11, pkts from network: 0
+Node:     82, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     82, Layer:          802.11, BCAST pkts sent to chanl: 399
+Node:     82, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     82, Layer:          802.11, BCAST pkts rcvd clearly: 3026
+Node:     82, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     82, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     82, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     82, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     82, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     83, Layer:          802.11, pkts from network: 0
+Node:     83, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     83, Layer:          802.11, BCAST pkts sent to chanl: 401
+Node:     83, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     83, Layer:          802.11, BCAST pkts rcvd clearly: 3741
+Node:     83, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     83, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     83, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     83, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     83, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     84, Layer:          802.11, pkts from network: 0
+Node:     84, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     84, Layer:          802.11, BCAST pkts sent to chanl: 401
+Node:     84, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     84, Layer:          802.11, BCAST pkts rcvd clearly: 3117
+Node:     84, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     84, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     84, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     84, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     84, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     85, Layer:          802.11, pkts from network: 0
+Node:     85, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     85, Layer:          802.11, BCAST pkts sent to chanl: 395
+Node:     85, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     85, Layer:          802.11, BCAST pkts rcvd clearly: 3755
+Node:     85, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     85, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     85, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     85, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     85, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     86, Layer:          802.11, pkts from network: 0
+Node:     86, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     86, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     86, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     86, Layer:          802.11, BCAST pkts rcvd clearly: 4269
+Node:     86, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     86, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     86, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     86, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     86, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     87, Layer:          802.11, pkts from network: 0
+Node:     87, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     87, Layer:          802.11, BCAST pkts sent to chanl: 401
+Node:     87, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     87, Layer:          802.11, BCAST pkts rcvd clearly: 4100
+Node:     87, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     87, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     87, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     87, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     87, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     88, Layer:          802.11, pkts from network: 0
+Node:     88, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     88, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     88, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     88, Layer:          802.11, BCAST pkts rcvd clearly: 3881
+Node:     88, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     88, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     88, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     88, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     88, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     89, Layer:          802.11, pkts from network: 0
+Node:     89, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     89, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     89, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     89, Layer:          802.11, BCAST pkts rcvd clearly: 3527
+Node:     89, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     89, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     89, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     89, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     89, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     90, Layer:          802.11, pkts from network: 0
+Node:     90, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     90, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     90, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     90, Layer:          802.11, BCAST pkts rcvd clearly: 1945
+Node:     90, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     90, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     90, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     90, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     90, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     91, Layer:          802.11, pkts from network: 0
+Node:     91, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     91, Layer:          802.11, BCAST pkts sent to chanl: 386
+Node:     91, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     91, Layer:          802.11, BCAST pkts rcvd clearly: 2355
+Node:     91, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     91, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     91, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     91, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     91, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     92, Layer:          802.11, pkts from network: 0
+Node:     92, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     92, Layer:          802.11, BCAST pkts sent to chanl: 401
+Node:     92, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     92, Layer:          802.11, BCAST pkts rcvd clearly: 2715
+Node:     92, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     92, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     92, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     92, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     92, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     93, Layer:          802.11, pkts from network: 0
+Node:     93, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     93, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     93, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     93, Layer:          802.11, BCAST pkts rcvd clearly: 3105
+Node:     93, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     93, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     93, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     93, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     93, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     94, Layer:          802.11, pkts from network: 0
+Node:     94, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     94, Layer:          802.11, BCAST pkts sent to chanl: 398
+Node:     94, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     94, Layer:          802.11, BCAST pkts rcvd clearly: 2742
+Node:     94, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     94, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     94, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     94, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     94, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     95, Layer:          802.11, pkts from network: 0
+Node:     95, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     95, Layer:          802.11, BCAST pkts sent to chanl: 404
+Node:     95, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     95, Layer:          802.11, BCAST pkts rcvd clearly: 2650
+Node:     95, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     95, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     95, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     95, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     95, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     96, Layer:          802.11, pkts from network: 0
+Node:     96, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     96, Layer:          802.11, BCAST pkts sent to chanl: 404
+Node:     96, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     96, Layer:          802.11, BCAST pkts rcvd clearly: 2288
+Node:     96, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     96, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     96, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     96, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     96, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     97, Layer:          802.11, pkts from network: 0
+Node:     97, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     97, Layer:          802.11, BCAST pkts sent to chanl: 400
+Node:     97, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     97, Layer:          802.11, BCAST pkts rcvd clearly: 3336
+Node:     97, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     97, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     97, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     97, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     97, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     98, Layer:          802.11, pkts from network: 0
+Node:     98, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     98, Layer:          802.11, BCAST pkts sent to chanl: 403
+Node:     98, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     98, Layer:          802.11, BCAST pkts rcvd clearly: 1977
+Node:     98, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     98, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     98, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     98, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     98, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:     99, Layer:          802.11, pkts from network: 0
+Node:     99, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:     99, Layer:          802.11, BCAST pkts sent to chanl: 394
+Node:     99, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:     99, Layer:          802.11, BCAST pkts rcvd clearly: 1978
+Node:     99, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:     99, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:     99, Layer:          802.11, pkt drops due to retx limit: 0
+Node:     99, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:     99, Layer:          802.11, RTS Packets ignored due to NAV 0

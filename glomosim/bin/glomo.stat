@@ -1,0 +1,196 @@
+Node:      0, Layer:         MacCSMA, Number of packets from network: 0
+Node:      0, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      0, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      0, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      0, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      0, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      0, Layer:    AppCbrClient, (0) Node id: 1
+Node:      0, Layer:    AppCbrClient, (0) Server address: 1
+Node:      0, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      0, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.995000000
+Node:      0, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      0, Layer:    AppCbrClient, (0) Total number of bytes sent: 29000000
+Node:      0, Layer:    AppCbrClient, (0) Total number of packets sent: 20000
+Node:      0, Layer:    AppCbrClient, (0) Throughput (bits per second): 2320116
+Node:      1, Layer:         MacCSMA, Number of packets from network: 0
+Node:      1, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      1, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      1, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      1, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      1, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      1, Layer:    AppCbrServer, (1) Node id: 1
+Node:      1, Layer:    AppCbrServer, (0) Client address: 0
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.051159500
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 100.667440757
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.622932478
+Node:      1, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 23297150
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 16067
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 1852356
+Node:      2, Layer:         MacCSMA, Number of packets from network: 0
+Node:      2, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      2, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      2, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      2, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      2, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      3, Layer:         MacCSMA, Number of packets from network: 0
+Node:      3, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      3, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      3, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      3, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      3, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      4, Layer:         MacCSMA, Number of packets from network: 0
+Node:      4, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      4, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      4, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      4, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      4, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      5, Layer:         MacCSMA, Number of packets from network: 0
+Node:      5, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      5, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      5, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      5, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      5, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      6, Layer:         MacCSMA, Number of packets from network: 0
+Node:      6, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      6, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      6, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      6, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      6, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      6, Layer:    AppCbrServer, (6) Node id: 1
+Node:      6, Layer:    AppCbrServer, (0) Client address: 7
+Node:      6, Layer:    AppCbrServer, (0) First packet received at [s]: 0.146180932
+Node:      6, Layer:    AppCbrServer, (0) Last packet received at [s]: 100.661257695
+Node:      6, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.621010506
+Node:      6, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      6, Layer:    AppCbrServer, (0) Total number of bytes received: 23337750
+Node:      6, Layer:    AppCbrServer, (0) Total number of packets received: 16095
+Node:      6, Layer:    AppCbrServer, (0) Throughput (bits per second): 1857452
+Node:      7, Layer:         MacCSMA, Number of packets from network: 0
+Node:      7, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 31
+Node:      7, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      7, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 0
+Node:      7, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      7, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 0
+Node:      7, Layer:    AppCbrClient, (7) Node id: 1
+Node:      7, Layer:    AppCbrClient, (0) Server address: 6
+Node:      7, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      7, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.995000000
+Node:      7, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      7, Layer:    AppCbrClient, (0) Total number of bytes sent: 29000000
+Node:      7, Layer:    AppCbrClient, (0) Total number of packets sent: 20000
+Node:      7, Layer:    AppCbrClient, (0) Throughput (bits per second): 2320116
+Node:      0, Layer:          802.11, pkts from network: 0
+Node:      0, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      0, Layer:          802.11, BCAST pkts sent to chanl: 17450
+Node:      0, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      0, Layer:          802.11, BCAST pkts rcvd clearly: 87251
+Node:      0, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      0, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      0, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      0, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      0, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      0, Layer:    AppCbrClient, (0) Node id: 807425601
+Node:      0, Layer:    AppCbrClient, (0) Server address: 1
+Node:      0, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      0, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.995000000
+Node:      0, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      0, Layer:    AppCbrClient, (0) Total number of bytes sent: 29000000
+Node:      0, Layer:    AppCbrClient, (0) Total number of packets sent: 20000
+Node:      0, Layer:    AppCbrClient, (0) Throughput (bits per second): 2320116
+Node:      1, Layer:          802.11, pkts from network: 0
+Node:      1, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      1, Layer:          802.11, BCAST pkts sent to chanl: 17451
+Node:      1, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      1, Layer:          802.11, BCAST pkts rcvd clearly: 69800
+Node:      1, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      1, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      1, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      1, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      1, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      1, Layer:    AppCbrServer, (1) Node id: 807425601
+Node:      1, Layer:    AppCbrServer, (0) Client address: 0
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.051159500
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 100.667440757
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.622932478
+Node:      1, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 23297150
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 16067
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 1852356
+Node:      2, Layer:          802.11, pkts from network: 0
+Node:      2, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      2, Layer:          802.11, BCAST pkts sent to chanl: 17450
+Node:      2, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      2, Layer:          802.11, BCAST pkts rcvd clearly: 122153
+Node:      2, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      2, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      2, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      2, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      2, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      3, Layer:          802.11, pkts from network: 0
+Node:      3, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      3, Layer:          802.11, BCAST pkts sent to chanl: 17450
+Node:      3, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      3, Layer:          802.11, BCAST pkts rcvd clearly: 122153
+Node:      3, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      3, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      3, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      3, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      3, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      4, Layer:          802.11, pkts from network: 0
+Node:      4, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      4, Layer:          802.11, BCAST pkts sent to chanl: 17450
+Node:      4, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      4, Layer:          802.11, BCAST pkts rcvd clearly: 104702
+Node:      4, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      4, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      4, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      4, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      4, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      5, Layer:          802.11, pkts from network: 0
+Node:      5, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      5, Layer:          802.11, BCAST pkts sent to chanl: 17450
+Node:      5, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      5, Layer:          802.11, BCAST pkts rcvd clearly: 122153
+Node:      5, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      5, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      5, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      5, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      5, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      6, Layer:          802.11, pkts from network: 0
+Node:      6, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      6, Layer:          802.11, BCAST pkts sent to chanl: 17451
+Node:      6, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      6, Layer:          802.11, BCAST pkts rcvd clearly: 87251
+Node:      6, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      6, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      6, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      6, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      6, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      6, Layer:    AppCbrServer, (6) Node id: 807425601
+Node:      6, Layer:    AppCbrServer, (0) Client address: 7
+Node:      6, Layer:    AppCbrServer, (0) First packet received at [s]: 0.146180932
+Node:      6, Layer:    AppCbrServer, (0) Last packet received at [s]: 100.661257695
+Node:      6, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.621010506
+Node:      6, Layer:    AppCbrServer, (0) Session status: Closed
+Node:      6, Layer:    AppCbrServer, (0) Total number of bytes received: 23337750
+Node:      6, Layer:    AppCbrServer, (0) Total number of packets received: 16095
+Node:      6, Layer:    AppCbrServer, (0) Throughput (bits per second): 1857452
+Node:      7, Layer:          802.11, pkts from network: 0
+Node:      7, Layer:          802.11, UCAST (non-frag) pkts sent to chanl: 0
+Node:      7, Layer:          802.11, BCAST pkts sent to chanl: 17451
+Node:      7, Layer:          802.11, UCAST pkts rcvd clearly: 0
+Node:      7, Layer:          802.11, BCAST pkts rcvd clearly: 87251
+Node:      7, Layer:          802.11, retx pkts due to CTS timeout: 0
+Node:      7, Layer:          802.11, retx pkts due to ACK timeout: 0
+Node:      7, Layer:          802.11, pkt drops due to retx limit: 0
+Node:      7, Layer:          802.11, RTS Packets ignored due to Busy Channel 0
+Node:      7, Layer:          802.11, RTS Packets ignored due to NAV 0
+Node:      7, Layer:    AppCbrClient, (7) Node id: 807425601
+Node:      7, Layer:    AppCbrClient, (0) Server address: 6
+Node:      7, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      7, Layer:    AppCbrClient, (0) Last packet sent at [s]: 99.995000000
+Node:      7, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      7, Layer:    AppCbrClient, (0) Total number of bytes sent: 29000000
+Node:      7, Layer:    AppCbrClient, (0) Total number of packets sent: 20000
+Node:      7, Layer:    AppCbrClient, (0) Throughput (bits per second): 2320116

@@ -1,0 +1,231 @@
+#include <stdio.h>
+#include <errno.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+
+
+#include "sdn_message.h"
+#include "api.h"
+#include "structmsg.h"
+#include "fileio.h"
+#include "message.h"
+#include "network.h"
+#include "802_11.h"
+#include "csma.h"
+
+static  BOOL wasFound;
+static  char macProtocolName[GLOMO_MAX_STRING_LENGTH];
+static  int interfaceIndex = 0;
+
+static  GlomoNode *msgNode = NULL;
+static  GlomoNodeInput  nodeInputCsma ;
+static  GlomoNodeInput  nodeInputWifi ;
+
+void msg_init_csma(){
+
+  printf("In msg_init_csma()\n");
+  GLOMO_ReadFile(&nodeInputCsma, "/home/rajarshi664/glomosim-2.03/glomosim/bin/csma_prithviraj.in");
+  printf("ReadFile successful\n");
+  GLOMO_ReadStringInstance(
+    msgNode->nodeAddr, &nodeInputCsma, "MAC-PROTOCOL", interfaceIndex,
+    (interfaceIndex == 0), &wasFound, macProtocolName);
+  printf("ReadString Instance successful\n");
+}
+
+void msg_init_wifi(){
+
+  printf("In msg_init_wfi()\n");
+  GLOMO_ReadFile(&nodeInputWifi, "/home/rajarshi664/glomosim-2.03/glomosim/bin/wifi_prithviraj.in");
+  printf("ReadFile successful\n");
+  GLOMO_ReadStringInstance(
+    msgNode->nodeAddr, &nodeInputWifi, "MAC-PROTOCOL", interfaceIndex,
+    (interfaceIndex == 0), &wasFound, macProtocolName);
+  printf("ReadString Instance successful\n");
+}
+
+void msg_init(GlomoNode *node, GlomoNodeInput  *input)
+{
+  BOOL wasFound;
+  char macProtocolName[GLOMO_MAX_STRING_LENGTH];
+
+  printf("msg_init()\n");
+
+  msgNode = node;
+  //nodeInput = input;
+  
+  msg_create_socket();
+  msg_init_csma();
+  msg_init_wifi();
+
+
+}
+
+void msg_switch_to_wifi() {
+
+  GlomoNode* nextNode = msgNode;
+  GlomoMacCsma* csma = NULL;
+
+  while (nextNode != NULL) {
+    printf("Sending message to MAC Layer to WiFi\n");
+
+    switch(nextNode->macData[interfaceIndex]->macProtocol) {
+      case MAC_PROTOCOL_CSMA: {
+        csma = (GlomoMacCsma *)nextNode->macData[interfaceIndex]->macVar;
+        while(GLOMO_RadioGetStatus(nextNode, csma->myGlomoMac->interfaceIndex) != RADIO_IDLE 
+              && csma->status != CSMA_STATUS_PASSIVE &&
+              (!NetworkIpOutputQueueIsEmpty(nextNode, csma->myGlomoMac->interfaceIndex))) {
+        }
+
+        while(TRUE) {
+          GLOMO_ReadStringInstance(
+             nextNode->nodeAddr, &nodeInputWifi, "MAC-PROTOCOL", 
+                     interfaceIndex, (interfaceIndex == 0), 
+                     &wasFound, macProtocolName);
+
+             if (!wasFound) { break; }
+
+             nextNode->macData[interfaceIndex]->macProtocol = MAC_PROTOCOL_802_11;
+             Mac802_11Init(nextNode, interfaceIndex, &nodeInputWifi);
+             interfaceIndex++;
+            
+          }    
+          interfaceIndex = 0;
+
+          printf("Message sent to MAC successfully\n");
+
+          assert((nextNode->nextNodeData == NULL) ||
+                (nextNode->nextNodeData->prevNodeData == nextNode));
+          assert((nextNode->prevNodeData == NULL) ||
+                (nextNode->prevNodeData->nextNodeData == nextNode));
+          nextNode = nextNode->nextNodeData;
+          break;
+      }
+      default:  {
+        printf("Current MAC in msg_switch_to_wifi() is %d\n", 
+               nextNode->macData[interfaceIndex]->macProtocol);
+        return;
+      }
+    }
+  }
+}
+
+void msg_switch_to_csma() {
+
+  GlomoNode* nextNode = msgNode;
+  GlomoMac802_11* wifi = NULL;
+  int retries = 0;
+
+  while (nextNode != NULL) {
+    printf("Sending message to MAC Layer to switch to CSMA\n");
+
+    switch(nextNode->macData[interfaceIndex]->macProtocol) {
+      case MAC_PROTOCOL_802_11: {
+            
+        wifi = (GlomoMac802_11 *)nextNode->macData[interfaceIndex]->macVar;
+        while(GLOMO_RadioGetStatus(nextNode, wifi->myGlomoMac->interfaceIndex) != RADIO_IDLE 
+              && wifi->state != M802_11_S_IDLE) {
+                     printf("Not Idle\n");
+                     retries++;
+                     if (retries > MAX_RETRIES) {
+                       printf("Retry message again. Command not accept by device. Device busy!\n");
+                       return;
+                     }
+
+        }
+
+        while(TRUE) {
+          GLOMO_ReadStringInstance(
+             nextNode->nodeAddr, &nodeInputCsma, "MAC-PROTOCOL", 
+                     interfaceIndex, (interfaceIndex == 0), 
+                     &wasFound, macProtocolName);
+
+             if (!wasFound) { break; }
+
+             nextNode->macData[interfaceIndex]->macProtocol = MAC_PROTOCOL_CSMA;
+             MacCsmaInit(nextNode, interfaceIndex, &nodeInputCsma);
+             interfaceIndex++;
+            
+          }    
+          interfaceIndex = 0;
+
+          printf("Message sent to MAC successfully\n");
+
+          assert((nextNode->nextNodeData == NULL) ||
+                (nextNode->nextNodeData->prevNodeData == nextNode));
+          assert((nextNode->prevNodeData == NULL) ||
+                (nextNode->prevNodeData->nextNodeData == nextNode));
+          nextNode = nextNode->nextNodeData;
+          break;
+      }
+      default:  {
+        printf("Current MAC in msg_switch_to_csma is %d\n", 
+               nextNode->macData[interfaceIndex]->macProtocol);
+        return;
+      }
+    }
+  }
+}
+
+int msg_handle_config(GLOMOSIM_SS_MESSAGE_CONFIG *buf) {
+  GlomoNode* nextNode = msgNode;
+  int prev_mac = nextNode->macData[interfaceIndex]->macProtocol;
+  printf("Buf->config_type = %d\n", buf->config_type);
+  printf("Buf->u.switch_mac.type = %d\n", buf->u.switch_mac.type);
+  switch (buf->config_type) {
+    case GLOMOSIM_SWITCH_MAC: {
+      switch(buf->u.switch_mac.type) {
+        case CSMA_PROTO:
+           printf("Switch to CSMA\n");
+           msg_switch_to_csma();
+           break;
+        case WIFI_PROTO:
+           printf("Switch to 802.11\n");
+           msg_switch_to_wifi();
+           break;
+        default :
+           printf("Unknown protocol\n");
+           break;
+      }
+      nextNode = msgNode;
+      while(nextNode != NULL) {
+        for(interfaceIndex = 0; interfaceIndex < nextNode->numberInterfaces; interfaceIndex++) {
+            if (prev_mac == MAC_PROTOCOL_802_11) {
+              Mac802_11Finalize(nextNode, interfaceIndex);
+            } else if (prev_mac == MAC_PROTOCOL_CSMA) {
+              MacCsmaFinalize(nextNode, interfaceIndex);
+            } else {
+              printf("Unknown previous MAC protocol = %d\n", prev_mac);
+            }
+        }
+        GLOMO_AppFinalize(nextNode); 
+        nextNode = nextNode->nextNodeData;
+      }
+
+      break;
+    }
+    default :
+      printf("Unknown config type\n");
+  }
+}
+
+int msg_process_msg(GLOMOSIM_SS_MESSAGE *buf, const int len)
+{
+  switch(buf->type)
+  {
+    case GLOMOSIM_SS_EVENT:
+      printf("Event message received\n");
+      break;
+    case GLOMOSIM_SS_STATS_RES:
+      printf("Stats message received\n");
+      break;
+    case GLOMOSIM_SS_CONFIG:
+      printf("Config message received\n");
+      msg_handle_config(&buf->u.config);
+      break;
+    default:
+      printf("Unknown message received\n");
+      return -1;
+  }
+}
+

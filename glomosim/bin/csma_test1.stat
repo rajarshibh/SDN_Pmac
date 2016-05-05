@@ -1,0 +1,667 @@
+Node:      0, Layer:         MacCSMA, Number of packets from network: 0
+Node:      0, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      0, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 197
+Node:      0, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 394
+Node:      0, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      0, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1949
+Node:      0, Layer:    AppCbrClient, (0) Server address: 1
+Node:      0, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      0, Layer:    AppCbrClient, (0) Last packet sent at [s]: 0.999500000
+Node:      0, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      0, Layer:    AppCbrClient, (0) Total number of bytes sent: 2900000
+Node:      0, Layer:    AppCbrClient, (0) Total number of packets sent: 2000
+Node:      0, Layer:    AppCbrClient, (0) Throughput (bits per second): 23211605
+Node:      1, Layer:         MacCSMA, Number of packets from network: 0
+Node:      1, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      1, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      1, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 407
+Node:      1, Layer:         MacCSMA, Number of UNICAST packets received clearly: 337
+Node:      1, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2695
+Node:      1, Layer:    AppCbrServer, (0) Client address: 3
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 2.515873495
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 3.261221059
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 2.737015214
+Node:      1, Layer:    AppCbrServer, (0) Session status: Not closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 88450
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 61
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 788
+Node:      1, Layer:    AppCbrServer, (0) Client address: 4
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 2.019997784
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 2.305312895
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 1.910686260
+Node:      1, Layer:    AppCbrServer, (0) Session status: Not closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 11600
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 8
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 103
+Node:      1, Layer:    AppCbrServer, (0) Client address: 2
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.064509831
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 2.324418857
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 1.288136547
+Node:      1, Layer:    AppCbrServer, (0) Session status: Not closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 136300
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 94
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 1211
+Node:      1, Layer:    AppCbrServer, (0) Client address: 0
+Node:      1, Layer:    AppCbrServer, (0) First packet received at [s]: 0.024831749
+Node:      1, Layer:    AppCbrServer, (0) Last packet received at [s]: 1.862061955
+Node:      1, Layer:    AppCbrServer, (0) Average end-to-end delay [s]: 0.771441887
+Node:      1, Layer:    AppCbrServer, (0) Session status: Not closed
+Node:      1, Layer:    AppCbrServer, (0) Total number of bytes received: 252300
+Node:      1, Layer:    AppCbrServer, (0) Total number of packets received: 174
+Node:      1, Layer:    AppCbrServer, (0) Throughput (bits per second): 2242
+Node:      2, Layer:         MacCSMA, Number of packets from network: 0
+Node:      2, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      2, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 202
+Node:      2, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 395
+Node:      2, Layer:         MacCSMA, Number of UNICAST packets received clearly: 71
+Node:      2, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2610
+Node:      2, Layer:    AppCbrClient, (0) Server address: 1
+Node:      2, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      2, Layer:    AppCbrClient, (0) Last packet sent at [s]: 0.999500000
+Node:      2, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      2, Layer:    AppCbrClient, (0) Total number of bytes sent: 2900000
+Node:      2, Layer:    AppCbrClient, (0) Total number of packets sent: 2000
+Node:      2, Layer:    AppCbrClient, (0) Throughput (bits per second): 23211605
+Node:      3, Layer:         MacCSMA, Number of packets from network: 0
+Node:      3, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      3, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 108
+Node:      3, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:      3, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      3, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1880
+Node:      3, Layer:    AppCbrClient, (0) Server address: 1
+Node:      3, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      3, Layer:    AppCbrClient, (0) Last packet sent at [s]: 0.999500000
+Node:      3, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      3, Layer:    AppCbrClient, (0) Total number of bytes sent: 2900000
+Node:      3, Layer:    AppCbrClient, (0) Total number of packets sent: 2000
+Node:      3, Layer:    AppCbrClient, (0) Throughput (bits per second): 23211605
+Node:      4, Layer:         MacCSMA, Number of packets from network: 0
+Node:      4, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      4, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 127
+Node:      4, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 407
+Node:      4, Layer:         MacCSMA, Number of UNICAST packets received clearly: 126
+Node:      4, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2198
+Node:      4, Layer:    AppCbrClient, (0) Server address: 1
+Node:      4, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      4, Layer:    AppCbrClient, (0) Last packet sent at [s]: 0.999500000
+Node:      4, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      4, Layer:    AppCbrClient, (0) Total number of bytes sent: 2900000
+Node:      4, Layer:    AppCbrClient, (0) Total number of packets sent: 2000
+Node:      4, Layer:    AppCbrClient, (0) Throughput (bits per second): 23211605
+Node:      5, Layer:         MacCSMA, Number of packets from network: 0
+Node:      5, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      5, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 186
+Node:      5, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 398
+Node:      5, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      5, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1541
+Node:      5, Layer:    AppCbrClient, (0) Server address: 1
+Node:      5, Layer:    AppCbrClient, (0) First packet sent at [s]: 0.000000000
+Node:      5, Layer:    AppCbrClient, (0) Last packet sent at [s]: 0.999500000
+Node:      5, Layer:    AppCbrClient, (0) Session status: Closed
+Node:      5, Layer:    AppCbrClient, (0) Total number of bytes sent: 2900000
+Node:      5, Layer:    AppCbrClient, (0) Total number of packets sent: 2000
+Node:      5, Layer:    AppCbrClient, (0) Throughput (bits per second): 23211605
+Node:      6, Layer:         MacCSMA, Number of packets from network: 0
+Node:      6, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      6, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      6, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:      6, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      6, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2686
+Node:      7, Layer:         MacCSMA, Number of packets from network: 0
+Node:      7, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      7, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      7, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:      7, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      7, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2598
+Node:      8, Layer:         MacCSMA, Number of packets from network: 0
+Node:      8, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      8, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      8, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:      8, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      8, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3403
+Node:      9, Layer:         MacCSMA, Number of packets from network: 0
+Node:      9, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:      9, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:      9, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:      9, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:      9, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1966
+Node:     10, Layer:         MacCSMA, Number of packets from network: 0
+Node:     10, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     10, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     10, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     10, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     10, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2311
+Node:     11, Layer:         MacCSMA, Number of packets from network: 0
+Node:     11, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     11, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     11, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 404
+Node:     11, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     11, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3051
+Node:     12, Layer:         MacCSMA, Number of packets from network: 0
+Node:     12, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     12, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 8
+Node:     12, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 402
+Node:     12, Layer:         MacCSMA, Number of UNICAST packets received clearly: 8
+Node:     12, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3684
+Node:     13, Layer:         MacCSMA, Number of packets from network: 0
+Node:     13, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     13, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 46
+Node:     13, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 397
+Node:     13, Layer:         MacCSMA, Number of UNICAST packets received clearly: 46
+Node:     13, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2213
+Node:     14, Layer:         MacCSMA, Number of packets from network: 0
+Node:     14, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     14, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     14, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 401
+Node:     14, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     14, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2534
+Node:     15, Layer:         MacCSMA, Number of packets from network: 0
+Node:     15, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     15, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     15, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     15, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     15, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2985
+Node:     16, Layer:         MacCSMA, Number of packets from network: 0
+Node:     16, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     16, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     16, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 405
+Node:     16, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     16, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3219
+Node:     17, Layer:         MacCSMA, Number of packets from network: 0
+Node:     17, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     17, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     17, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 405
+Node:     17, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     17, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3338
+Node:     18, Layer:         MacCSMA, Number of packets from network: 0
+Node:     18, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     18, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     18, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 399
+Node:     18, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     18, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4197
+Node:     19, Layer:         MacCSMA, Number of packets from network: 0
+Node:     19, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     19, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     19, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 401
+Node:     19, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     19, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1950
+Node:     20, Layer:         MacCSMA, Number of packets from network: 0
+Node:     20, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     20, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     20, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 397
+Node:     20, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     20, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3297
+Node:     21, Layer:         MacCSMA, Number of packets from network: 0
+Node:     21, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     21, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     21, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 402
+Node:     21, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     21, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3855
+Node:     22, Layer:         MacCSMA, Number of packets from network: 0
+Node:     22, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     22, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     22, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 398
+Node:     22, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     22, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4046
+Node:     23, Layer:         MacCSMA, Number of packets from network: 0
+Node:     23, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     23, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     23, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 401
+Node:     23, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     23, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4289
+Node:     24, Layer:         MacCSMA, Number of packets from network: 0
+Node:     24, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     24, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     24, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 398
+Node:     24, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     24, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3220
+Node:     25, Layer:         MacCSMA, Number of packets from network: 0
+Node:     25, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     25, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     25, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     25, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     25, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3504
+Node:     26, Layer:         MacCSMA, Number of packets from network: 0
+Node:     26, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     26, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     26, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 404
+Node:     26, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     26, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3518
+Node:     27, Layer:         MacCSMA, Number of packets from network: 0
+Node:     27, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     27, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     27, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 402
+Node:     27, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     27, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4568
+Node:     28, Layer:         MacCSMA, Number of packets from network: 0
+Node:     28, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     28, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     28, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     28, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     28, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3781
+Node:     29, Layer:         MacCSMA, Number of packets from network: 0
+Node:     29, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     29, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     29, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     29, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     29, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2689
+Node:     30, Layer:         MacCSMA, Number of packets from network: 0
+Node:     30, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     30, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     30, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 394
+Node:     30, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     30, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2631
+Node:     31, Layer:         MacCSMA, Number of packets from network: 0
+Node:     31, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     31, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     31, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 395
+Node:     31, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     31, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3336
+Node:     32, Layer:         MacCSMA, Number of packets from network: 0
+Node:     32, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     32, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     32, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 402
+Node:     32, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     32, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4089
+Node:     33, Layer:         MacCSMA, Number of packets from network: 0
+Node:     33, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     33, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     33, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     33, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     33, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3124
+Node:     34, Layer:         MacCSMA, Number of packets from network: 0
+Node:     34, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     34, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     34, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 405
+Node:     34, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     34, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3619
+Node:     35, Layer:         MacCSMA, Number of packets from network: 0
+Node:     35, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     35, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     35, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 405
+Node:     35, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     35, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3463
+Node:     36, Layer:         MacCSMA, Number of packets from network: 0
+Node:     36, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     36, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     36, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 408
+Node:     36, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     36, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3842
+Node:     37, Layer:         MacCSMA, Number of packets from network: 0
+Node:     37, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     37, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     37, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 404
+Node:     37, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     37, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3608
+Node:     38, Layer:         MacCSMA, Number of packets from network: 0
+Node:     38, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     38, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     38, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 399
+Node:     38, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     38, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3385
+Node:     39, Layer:         MacCSMA, Number of packets from network: 0
+Node:     39, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     39, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     39, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     39, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     39, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3055
+Node:     40, Layer:         MacCSMA, Number of packets from network: 0
+Node:     40, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     40, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     40, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     40, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     40, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2665
+Node:     41, Layer:         MacCSMA, Number of packets from network: 0
+Node:     41, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     41, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     41, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 401
+Node:     41, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     41, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3714
+Node:     42, Layer:         MacCSMA, Number of packets from network: 0
+Node:     42, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     42, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     42, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     42, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     42, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4514
+Node:     43, Layer:         MacCSMA, Number of packets from network: 0
+Node:     43, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     43, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     43, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     43, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     43, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4044
+Node:     44, Layer:         MacCSMA, Number of packets from network: 0
+Node:     44, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     44, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     44, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     44, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     44, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4214
+Node:     45, Layer:         MacCSMA, Number of packets from network: 0
+Node:     45, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     45, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     45, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 408
+Node:     45, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     45, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3859
+Node:     46, Layer:         MacCSMA, Number of packets from network: 0
+Node:     46, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     46, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     46, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     46, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     46, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2839
+Node:     47, Layer:         MacCSMA, Number of packets from network: 0
+Node:     47, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     47, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     47, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     47, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     47, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3004
+Node:     48, Layer:         MacCSMA, Number of packets from network: 0
+Node:     48, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     48, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     48, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 399
+Node:     48, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     48, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3459
+Node:     49, Layer:         MacCSMA, Number of packets from network: 0
+Node:     49, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     49, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     49, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 398
+Node:     49, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     49, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1886
+Node:     50, Layer:         MacCSMA, Number of packets from network: 0
+Node:     50, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     50, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     50, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 397
+Node:     50, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     50, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2978
+Node:     51, Layer:         MacCSMA, Number of packets from network: 0
+Node:     51, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     51, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     51, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     51, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     51, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4029
+Node:     52, Layer:         MacCSMA, Number of packets from network: 0
+Node:     52, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     52, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     52, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 394
+Node:     52, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     52, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4299
+Node:     53, Layer:         MacCSMA, Number of packets from network: 0
+Node:     53, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     53, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     53, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     53, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     53, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3255
+Node:     54, Layer:         MacCSMA, Number of packets from network: 0
+Node:     54, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     54, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     54, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     54, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     54, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3267
+Node:     55, Layer:         MacCSMA, Number of packets from network: 0
+Node:     55, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     55, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     55, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     55, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     55, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2684
+Node:     56, Layer:         MacCSMA, Number of packets from network: 0
+Node:     56, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     56, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     56, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 393
+Node:     56, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     56, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2490
+Node:     57, Layer:         MacCSMA, Number of packets from network: 0
+Node:     57, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     57, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     57, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     57, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     57, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3634
+Node:     58, Layer:         MacCSMA, Number of packets from network: 0
+Node:     58, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     58, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     58, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 387
+Node:     58, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     58, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2861
+Node:     59, Layer:         MacCSMA, Number of packets from network: 0
+Node:     59, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     59, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     59, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     59, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     59, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2158
+Node:     60, Layer:         MacCSMA, Number of packets from network: 0
+Node:     60, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     60, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     60, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 399
+Node:     60, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     60, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1829
+Node:     61, Layer:         MacCSMA, Number of packets from network: 0
+Node:     61, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     61, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     61, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     61, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     61, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3302
+Node:     62, Layer:         MacCSMA, Number of packets from network: 0
+Node:     62, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     62, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     62, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 401
+Node:     62, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     62, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3530
+Node:     63, Layer:         MacCSMA, Number of packets from network: 0
+Node:     63, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     63, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     63, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     63, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     63, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3617
+Node:     64, Layer:         MacCSMA, Number of packets from network: 0
+Node:     64, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     64, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     64, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     64, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     64, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3045
+Node:     65, Layer:         MacCSMA, Number of packets from network: 0
+Node:     65, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     65, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     65, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     65, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     65, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3291
+Node:     66, Layer:         MacCSMA, Number of packets from network: 0
+Node:     66, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     66, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     66, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 404
+Node:     66, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     66, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3807
+Node:     67, Layer:         MacCSMA, Number of packets from network: 0
+Node:     67, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     67, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     67, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 399
+Node:     67, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     67, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3937
+Node:     68, Layer:         MacCSMA, Number of packets from network: 0
+Node:     68, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     68, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     68, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 397
+Node:     68, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     68, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3423
+Node:     69, Layer:         MacCSMA, Number of packets from network: 0
+Node:     69, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     69, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     69, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     69, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     69, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2631
+Node:     70, Layer:         MacCSMA, Number of packets from network: 0
+Node:     70, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     70, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     70, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 393
+Node:     70, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     70, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1157
+Node:     71, Layer:         MacCSMA, Number of packets from network: 0
+Node:     71, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     71, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     71, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     71, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     71, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3162
+Node:     72, Layer:         MacCSMA, Number of packets from network: 0
+Node:     72, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     72, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     72, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     72, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     72, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3329
+Node:     73, Layer:         MacCSMA, Number of packets from network: 0
+Node:     73, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     73, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     73, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 401
+Node:     73, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     73, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3206
+Node:     74, Layer:         MacCSMA, Number of packets from network: 0
+Node:     74, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     74, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     74, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 414
+Node:     74, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     74, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3365
+Node:     75, Layer:         MacCSMA, Number of packets from network: 0
+Node:     75, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     75, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     75, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     75, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     75, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3141
+Node:     76, Layer:         MacCSMA, Number of packets from network: 0
+Node:     76, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     76, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     76, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 393
+Node:     76, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     76, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3884
+Node:     77, Layer:         MacCSMA, Number of packets from network: 0
+Node:     77, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     77, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     77, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     77, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     77, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4277
+Node:     78, Layer:         MacCSMA, Number of packets from network: 0
+Node:     78, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     78, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     78, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 399
+Node:     78, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     78, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4758
+Node:     79, Layer:         MacCSMA, Number of packets from network: 0
+Node:     79, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     79, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     79, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 405
+Node:     79, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     79, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2971
+Node:     80, Layer:         MacCSMA, Number of packets from network: 0
+Node:     80, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     80, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     80, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     80, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     80, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1932
+Node:     81, Layer:         MacCSMA, Number of packets from network: 0
+Node:     81, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     81, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     81, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     81, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     81, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3054
+Node:     82, Layer:         MacCSMA, Number of packets from network: 0
+Node:     82, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     82, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     82, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 408
+Node:     82, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     82, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3067
+Node:     83, Layer:         MacCSMA, Number of packets from network: 0
+Node:     83, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     83, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     83, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 411
+Node:     83, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     83, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3785
+Node:     84, Layer:         MacCSMA, Number of packets from network: 0
+Node:     84, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     84, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     84, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 410
+Node:     84, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     84, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3241
+Node:     85, Layer:         MacCSMA, Number of packets from network: 0
+Node:     85, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     85, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     85, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     85, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     85, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3669
+Node:     86, Layer:         MacCSMA, Number of packets from network: 0
+Node:     86, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     86, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     86, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 405
+Node:     86, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     86, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4177
+Node:     87, Layer:         MacCSMA, Number of packets from network: 0
+Node:     87, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     87, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     87, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     87, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     87, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 4030
+Node:     88, Layer:         MacCSMA, Number of packets from network: 0
+Node:     88, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     88, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     88, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 402
+Node:     88, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     88, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3752
+Node:     89, Layer:         MacCSMA, Number of packets from network: 0
+Node:     89, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     89, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     89, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     89, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     89, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3395
+Node:     90, Layer:         MacCSMA, Number of packets from network: 0
+Node:     90, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     90, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     90, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 400
+Node:     90, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     90, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1971
+Node:     91, Layer:         MacCSMA, Number of packets from network: 0
+Node:     91, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     91, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     91, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 397
+Node:     91, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     91, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2347
+Node:     92, Layer:         MacCSMA, Number of packets from network: 0
+Node:     92, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     92, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     92, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 399
+Node:     92, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     92, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2714
+Node:     93, Layer:         MacCSMA, Number of packets from network: 0
+Node:     93, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     93, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     93, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 408
+Node:     93, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     93, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3051
+Node:     94, Layer:         MacCSMA, Number of packets from network: 0
+Node:     94, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     94, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     94, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 406
+Node:     94, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     94, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2695
+Node:     95, Layer:         MacCSMA, Number of packets from network: 0
+Node:     95, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     95, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     95, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 405
+Node:     95, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     95, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2609
+Node:     96, Layer:         MacCSMA, Number of packets from network: 0
+Node:     96, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     96, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     96, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     96, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     96, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 2247
+Node:     97, Layer:         MacCSMA, Number of packets from network: 0
+Node:     97, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     97, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     97, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 403
+Node:     97, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     97, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 3288
+Node:     98, Layer:         MacCSMA, Number of packets from network: 0
+Node:     98, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     98, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     98, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 395
+Node:     98, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     98, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1933
+Node:     99, Layer:         MacCSMA, Number of packets from network: 0
+Node:     99, Layer:         MacCSMA, Number of packets lost due to buffer overflow: 0
+Node:     99, Layer:         MacCSMA, Number of UNICAST packets output to the channel: 0
+Node:     99, Layer:         MacCSMA, Number of BROADCAST packets output to the channel: 396
+Node:     99, Layer:         MacCSMA, Number of UNICAST packets received clearly: 0
+Node:     99, Layer:         MacCSMA, Number of BROADCAST packets received clearly: 1924
