@@ -1,0 +1,24 @@
+
+% Set the default teletype font to txtt.
+\renewcommand{\ttdefault}{txtt}
+
+% Set the default style for listsings.
+\lstset{language=C,
+        basicstyle=\ttfamily\small,
+        keywordstyle=\bfseries,
+        stringstyle=,
+        xleftmargin=1em,
+        showstringspaces=false,
+        commentstyle=\rmfamily\itshape,
+        columns=flexible,
+        keepspaces=true,
+        texcl=true,
+        literate={\-}{}{0\discretionary{-}{}{}}
+}
+
+% Inline code.
+\newcommand{\code}[1]{\lstinline @#1@}
+
+% Define an environment for C++ programs.
+\lstnewenvironment{codeblock}{\lstset{language=C}}{}
+

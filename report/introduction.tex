@@ -1,0 +1,47 @@
+\section{Introduction}
+\label{sec:intro}
+With ever-changing wireless standards and protocols, there has been a conscious shift towards a programmatic approach for designing and implementing wireless radios. This has led to a tremendous interest in Software Defined Radios (SDR). SDR is a powerful concept in which filters, amplifiers, modulators and other complex signal processing blocks are realized in software, instead of on specialized hardware. As the task of signal processing is handed over to software, it is possible to use general purpose hardware, connected to an RF front end, to create powerful and highly flexible radios.
+
+While the SDR paradigm has revolutionized the design of wireless radios, it does not provide an efficient method to control a network of SDRs. Since SDRs can be reconfigured to provide a wide variety of radio functionalities, it would be highly desirable to have a consistent interface to expose the SDR's functional modules to the application developer. As modules can be added, removed or changed any time, such an interface framework must be able to adapt to these changes, report events to the application, and allow control of various constituent modules while hiding their complexity from the application developer. This level of abstraction is necessary because, as the network grows and becomes more heterogeneous, it is impossible for the application developer to keep track of low-level details. Here, by the notion of heterogeneous networks, we take into consideration a network containing both wired and wireless devices. Hence the architecture should enable network control, meet requirements of users and at the same time abstract away the details of the implementation.
+
+In order to provide abstractions taking into account the above considerations, we use the concept of Software Defined Networking (SDN). SDN defines abstractions that represent data plane components along with the interface to control and manage these abstractions. As a result, these primitives (including asynchronous callback function event reporting) enable an application developer to obtain a logically centralized view of the network. The application developer can then dynamically adjust rules to reflect changing network conditions and requirements.
+
+In this paper, we aim to integrate SDR and SDN to provide a principled approach for developing a consistent interface to manage underlying abstractions of SDRs. We build upon the abstract model presented in our previous paper \cite{crossflow}, where we described a monolithic architecture for \emph{wireless radio port} abstraction. In the current paper, we go beyond that and broaden the design space to provide a modular design, which is in line with the design principle of SDR.
+%As the design does not make any assumption about the protocols to be supported, the framework remains independent of network protocols and helps in building a true cross layered architecture platform. 
+This also enables an integration of both wired and wireless networks which can be managed in a programmatic manner, thereby enabling development of key applications catering to a heterogeneous network. We call our platform \crossflow. Some network applications that we envision can leverage \crossflow include, but are not limited to, the following:
+\begin{itemize}
+\item \emph{Physical layer adaptation} including:
+\begin{enumerate}
+	\item \emph{frequency hopping} to resist narrowband interference and prevent unauthorized interception; 
+	\item \emph{transmission power control} to maintain a target link quality while reducing interference to other users and/or extending battery life;
+	\item \emph{adaptive modulation and coding} to trade-off throughput and communication reliability and adapt to channel conditions (e.g., pathloss and interference).
+\end{enumerate}
+
+%(i)  %In Section~\ref{sec:evaluation}, we present an implementation of frequency hopping and adaptive modulation using the \crossflow framework.
+
+\item \emph{Quality of service (QoS) provisioning} to provide QoS policies according to profiles implemented through medium access control, throttling, admission control, scheduling, and error control techniques (e.g., ARQ and FEC). This allows both coarse-grained and fine-grained QoS policies to be defined in the network.
+
+\item \emph{Adaptive routing} to allow a  \crossflow controller, with its global view of the network, to dynamically switch between existing proactive and reactive routing protocols, and novel software-defined routing protocols, depending on the network conditions and the application constraints.
+
+% \item \emph{Adaptive routing} to allow a distributed \crossflow controller, with its global view of the network, to dynamically switch between reactive and proactive routing protocols depending on the network conditions and the application constraints.
+
+\item \emph{Self healing network} to allow the \crossflow controller to deploy fault management applications based upon self-healing mechanisms.
+
+\item \emph{Cross-layer control} to allow joint optimization of parameters, algorithms, and protocols at all layers of the protocol stack.
+\end{itemize}
+
+We use the generalized model of SDN introduced in \cite{Casey:14} as a template for defining the abstractions and their features discussed above. We also build upon the concept of \emph{wireless radio ports} as discussed in \cite{aetherflow}. This abstraction is composed of a number of smaller abstractions, one for each processing block, so that fine-grained control of the processing capabilities of a radio device is provided to application developers without exposing its intricate details. This enables manipulation of critical physical, data link (including the medium access control sublayer), and network layer properties through various well defined interfaces. Thus using the architecture of \crossflow, we can build applications across all layers of the network stack.
+
+For validation purposes, we use the popular GNU Radio~\cite{gnuradio}, which provides a modular  open-source Digital Signal Processing (DSP) software framework for SDRs. The modules of GNU Radio are written in C++ and provide a mechanism to connect and manage data between them. A Python wrapper ties these blocks together to implement applications. We host GNU Radio on a Universal Software Radio Peripheral (USRP) N210 device from Ettus Research and also run CPqd SoftSwitch software~\cite{ofsoftswitch13} as a separate module. CPqd SoftSwitch serves as a switch agent interacting between the SDN controller and GNU Radio modules. This is done through message extensions which we will discuss in subsequent sections. We also develop three proof-of-concept applications to validate our design principles: \emph{frequency hopping}, \emph{adaptive modulation}, and \emph{cognitive radio}.
+
+Our contributions can be summarized as follows.
+
+\begin{itemize}
+\item We propose a framework that provides a uniform and consistent view of SDRs, so that a network of SDRs can be managed in an efficient manner.
+
+\item We extend the SDN model with message extensions to provide support for wireless radio interfaces.
+
+\item We provide sample applications using the framework for validation.
+\end{itemize}
+
+The rest of the paper is organized as follows. In Section~\ref{sec:related} we review the related work done in this area. Section~\ref{sec:architecture} describes the \crossflow architecture with its SDN extensions. Section~\ref{sec:evaluation} describes a proof-of-concept implementation of three applications using our framework. Section~\ref{sec:conclusion} concludes the paper and discusses future work.

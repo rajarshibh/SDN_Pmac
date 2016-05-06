@@ -1,0 +1,117 @@
+\documentclass[10pt,conference]{IEEEtran}
+%\usepackage[bottom=0.62in]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fancyvrb}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{caption, subcaption}
+\usepackage{framed}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{listings}
+\usepackage{xspace}
+\usepackage{multirow}
+\usepackage{enumitem}
+ \usepackage{booktabs}
+
+\input{code}
+
+\renewcommand{\baselinestretch}{1.01}
+ 
+\newcommand{\secref}[1]{$\S$~\ref{#1}}
+
+\setlength{\parskip}{0pt}   % No separatation between paragraphs
+\setlength{\FrameSep}{0pt}
+\setlist{noitemsep}         % No spearation between list bullets
+
+\usepackage[inline]{trackchanges}
+\addeditor{alex}
+\addeditor{prithviraj}
+\addeditor{muxi}
+
+
+\newcommand{\alex}[1]{\add[as]{#1}}
+\newcommand{\alexn}[1]{\notee[as]{#1}}
+\newcommand\alexr[1]{}%  {\remove[as]{#1}}
+\newcommand\alexa[2]{\annote[as]{#2}{#1}}
+
+\newcommand{\prithviraj}[1]{\add[prithviraj]{#1}}
+\newcommand{\prithvirajn}[1]{\notee[prithviraj]{#1}}
+
+\newcommand{\muxi}[1]{\add[muxi]{#1}}
+\newcommand{\muxin}[1]{\notee[muxi]{#1}}
+
+\newcommand{\red}[1]{\textcolor{red}{ #1}}
+
+\newcommand{\aetherflow}{{\AE}therFlow\xspace}
+\newcommand{\crossflow}{CrossFlow\xspace}
+
+\hyphenation{of-soft-switch}
+
+%\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+
+
+%\newcommand\blfootnote[1]{%
+%  \begingroup
+%  \renewcommand\thefootnote{}\footnote{#1}%
+%  \addtocounter{footnote}{-1}%
+%  \endgroup
+%}
+
+
+
+%\newcommand\blfootnote[1]{%
+%  \begingroup
+%  \renewcommand\thefootnote{}\footnote{#1}%
+%  \addtocounter{footnote}{-1}%
+%  \endgroup
+%}
+
+
+\begin{document}
+	
+	\addtolength{\topmargin}{-0.61\baselineskip}
+
+\title{Enabling Dynamic Reconfigurability of SDRs Using SDN Principles}
+%\title{\crossflow: A Cross-layer Architecture for SDR Using SDN Principles}
+
+\author{
+  \IEEEauthorblockN{Prithviraj Shome\IEEEauthorrefmark{1}, Jalil Modares\IEEEauthorrefmark{2}, Nicholas Mastronarde\IEEEauthorrefmark{2}, and Alex Sprintson\IEEEauthorrefmark{1}} 
+  \IEEEauthorblockA{\IEEEauthorrefmark{1}Department of Electrical and Computer Engineering, Texas A\&M University} 
+%        College Station, Texas, USA \\
+%       \{prithvirajhi,mxyan, spalex\}@tamu.edu}
+%  \and
+%  \IEEEauthorblockN{Sayedjalil Modares Najafabad, Nicholas Mastronarde}
+  \IEEEauthorblockA{\IEEEauthorrefmark{2}Department of Electrical Engineering, University at Buffalo} 
+%       Buffalo, New York, USA \\
+%       \{sayedjal,nmastron\}@buffalo.edu}
+}
+
+\maketitle 
+
+
+%\blfootnote{This  material is based upon work supported by the National Science Foundation under Grants No. 1422655, 1423322, by the AFOSR under contract \mbox{No. FA9550-13-1-0008,} and by the Air Force Research Laboratory under Grant \mbox{No. FA8750-14-1-0073.}\\
+%}
+
+\input{abstract}
+
+%\blfootnote{This  material is based upon work supported by the National Science Foundation under Grants No. 1422655, 1423322 and by the AFOSR under contract  \mbox{No. FA9550-13-1-0008.}\\
+%This paper appeared in the CoolSDN Workshop of ICNP 2015.
+%}
+
+\input{introduction}
+\input{related}
+\input{architecture}
+\input{evaluation}
+%\input{experiment}
+% \input{discussion}
+%\input{applications}
+\input{conclusion}
+%\input{acks}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
