@@ -7,28 +7,28 @@ In this section, we describe our implementation of the system using the GloMoSim
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.35\textwidth, scale=0.5]{figures/hidden_recvPkts.pdf}
+  \includegraphics[width=0.35\textwidth, scale=0.35]{figures/hidden_recvPkts.pdf}
   \caption{Change in the number of received packets as the MAC protocol is changed from CSMA to 802.11}
   \label{fig:setup}
 \end{figure}
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.35\textwidth, scale=0.5]{figures/hidden_thrput.pdf}
+  \includegraphics[width=0.35\textwidth, scale=0.35]{figures/hidden_thrput.pdf}
   \caption{Change in throughput of the nodes as the MAC protocol is changed from CSMA to 802.11}
   \label{fig:overhead}
 \end{figure}
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.35\textwidth, scale=0.5]{figures/exposed_recvPkts.pdf}
+  \includegraphics[width=0.35\textwidth, scale=0.35]{figures/exposed_recvPkts.pdf}
   \caption{Change in the number of received packets when the MAC is changed from CSMA to 802.11}
   \label{fig:setup}
 \end{figure}
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.35\textwidth, scale=0.5]{figures/exposed_thrput.pdf}
+  \includegraphics[width=0.35\textwidth, scale=0.35]{figures/exposed_thrput.pdf}
   \caption{Change in the throughput when the MAC protocol is changed from CSMA to 802.11}
   \label{fig:overhead}
 \end{figure}
@@ -38,7 +38,7 @@ In this section, we describe our implementation of the system using the GloMoSim
 \subsubsection{Hidden Terminal}
 The Hidden terminal problem occurs in wireless networks when a node is visible from a particular destination node, but is not visible from other nodes that are communicating with the destination node. Since the transmitting nodes are out of range of one another, CSMA cannot detect a transmission and collisions occur as a result. IEEE 802.11 solves this problem with the help of the RTS/CTS mechanism. Since all trasmitting nodes are within communication range of the destination, they can hear the CTS destined to a particular transmitter. This ensures that only one transmitter communicates with the node. 
 
-We start the simulation with all nodes running CSMA as the MAC protocol. The test controller then issues the \emph{SWTICH-MAC} command with the appropriate MAC protocol (WIFI-PROTO) and forwards the request to all the nodes in the simulation. On each node, we first wait for the in-flight packets to be serviced and the state of the radio to become idle, and then initialize the MAC protocol to 802.11. Waiting for the radios to become idle is an approximation of the 4-way handshake described earlier. We also ensure that the simulation statistics of the nodes under both the original and the changed MAC protocols are saved in glomo.stat. As it is evident from the plots, 802.11 out performs CSMA both in throughput and the number of packets successfully received.
+We start the simulation with all nodes running CSMA as the MAC protocol. The test controller then issues the \emph{SWITCH-MAC} command with the appropriate MAC protocol (WIFI-PROTO) and forwards the request to all the nodes in the simulation. On each node, we first wait for the in-flight packets to be serviced and the state of the radio to become idle, and then initialize the MAC protocol to 802.11. Waiting for the radios to become idle is an approximation of the 4-way handshake described earlier. We also ensure that the simulation statistics of the nodes under both the original and the changed MAC protocols are saved in glomo.stat. As it is evident from the plots, 802.11 out performs CSMA both in throughput and the number of packets successfully received.
 
 \subsubsection{Exposed Terminal}
 The Exposed Terminal problem occurs in wireless networks when a node is not allowed to send packets to other nodes because of the presence of a transmitting node within its radio range, even though the receivers of the two nodes are out of range of each other. In CSMA, a node that wants to send packets performs carrier sense and after sensing the neighbours transmission, decides not to transmit as it would result in interfernce. IEEE 802.11, on the other hand, solves this problem with the help of the RTS/CTS mechansim. A node can identify itself as an exposed node if it hears an RTS from a neighbouringnode, but does not hear a corresponding CTS. It can then transmit to its intended receivers. 
