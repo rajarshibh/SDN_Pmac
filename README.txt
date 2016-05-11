@@ -1,5 +1,6 @@
 //README for installation
-//Provide github and access link. Github also contains test file
+//Github also contains test file
+//Github link : https://github.com/rajarshibh/SDN_Pmac
 
 1. The bin folder contains wifi_prithviraj and csma_prithviraj which are config files for the two MAC protocols.
 2. We switch between CSMA to Wifi and vice-versa.
